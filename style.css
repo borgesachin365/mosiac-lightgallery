@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+.photography-portpholio-masonry {
+	column-count: 2;
+	column-gap: 16px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.photography-portpholio-masonry .mItem {
+  display: inline-block;
+  margin-bottom: 13px;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+  .photography-portpholio-masonry {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 991px) {
+  .photography-portpholio-masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .photography-portpholio-masonry {
+    column-count: 1;
+  }
+}
